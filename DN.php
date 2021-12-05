@@ -10,10 +10,18 @@
 
     <style>
         .f1{
-            margin-left: 20px;
+            margin-left: 30%;
             font-size: 25px;
         }
-       
+        .c{
+            font-size:20px;
+            color:#008000;
+            background-color: #C0C0C0;
+            
+        }
+        .hg{
+            color:#FF0000;
+        }
     </style>
 </head>
 <body>
@@ -29,7 +37,8 @@
                 </div>
                 <div class="col-8 menu">
                     <ul>
-                        <li><a href= "pets.php.php">Trang chủ</a></li>
+                        <li><a href= "pets.php">Trang chủ</a></li>
+                        <li><a href= "order.php">Order </a></li>
                         <li><a href= "">Sản phẩm </a>
                             <ul class="menu_sp">
                                 <li><a href="sp nb.php">Sản phẩm nổi bật</a></li>
@@ -51,15 +60,18 @@
 </header>
 
 
-
+<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmqiVo5NgV3FihqwVD8qmNFc6tx8BdYlYuA&usqp=CAU"   style: width="400" height="400" align = left />
 
 <div class="f1">
-       <br> <H1>Đăng nhập </H1> <br><br>
+       <br> <H1 class="hg">Đăng nhập </H1> <br>
        
-<form method="get" action="PETS.php.php"> 
- Name: <input type="name" name="fname"><br><br>
- Password:  <input type="password" name="mk"><br><br>
-<input type="submit" name="submit" size="20px">
+<form method="get" id="form1" action="PETS.php"> 
+ Name: <input type="name" name="fname" id="name-input"> 
+ <span id="loi_name" class="Baoloi" ></span><br><br>
+ Password:  <input type="password" name="mk" id="password-input">
+ <span id="loi_pass" class="Baoloi" ></span><br><br>
+<input class="c" type="button" name="OK" onclick = "javascript:Chapnhan();" value="Đăng nhập" size="20px" >
+<a class="c" href='dky.php' title='Đăng ký'>Đăng ký</a>
 
 </div>
 </form>
@@ -119,6 +131,44 @@
     </div>
 
 </footer> 
+<script>
+    document.getElementById("name-input").focus();
 
+function Chapnhan() {
+	var okie = true; //chua co loi
+	//xoa cac thong bao loi
+	document.getElementById("loi_name").innerHTML  = "";
+	document.getElementById("loi_pass").innerHTML = "";
+
+    //kiem tra cac truong bat buoc nhap
+    if (document.getElementById("name-input").value == "") {
+        document.getElementById("loi_name").innerHTML = "Quý vị chưa nhập tên sử dụng";
+        document.getElementById("name-input").focus();
+        okie = false;
+    } else if (document.getElementById("name-input").value !== "tien") {
+		document.getElementById("loi_name").innerHTML = "Quý vị nhập sai tên";
+		document.getElementById("name-input").focus();
+		okie = false;
+	}
+
+	if (document.getElementById("password-input").value == "") {
+		document.getElementById("loi_pass").innerHTML = "Quý vị chưa nhập mật khẩu";
+		document.getElementById("password-input").focus();
+		okie = false;
+	} else if (document.getElementById("password-input").value !== "1234") {
+		document.getElementById("loi_pass").innerHTML = "Quý vị nhập sai mật khẩu";
+		document.getElementById("password-input").focus();
+		okie = false;
+	}
+
+
+	//neu tất cả các dữ liệu được nhập đúng đắn
+	//submit form
+	if (okie) {
+        window.localStorage.setItem("isLogin", true);
+        document.getElementById("form1").submit();
+    }
+}
+</script>
 </body>
 </html>

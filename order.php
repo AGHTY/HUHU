@@ -4,28 +4,22 @@
     <title> HTML </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-       .h{
-           margin-left: 10%;
-           font-size: 45px;
-           margin-bottom: 20px;
-           margin-top:20px;
-           color: 	#CC5500;
-       }
-       .ko{
-           
-           margin-right:5%;
-           font-size: 35px;
-           margin-left: 5% ;
-          
-       }
-       .p{
-           margin-left: 3%;
-           font-size:38px;
-           color:#808000;  
-           font-family: Georgia, 'Times New Roman', Times, serif;
-       }
-      
-        </style>
+        .f1{
+            margin-left: 30%;
+            font-size: 35px;
+        }
+        .c{
+            font-size:20px;
+            color:#008000;
+            background-color: #C0C0C0;
+        }
+        .hg{
+            color:#FF0000;
+        }
+        .a{
+            font-size:20px;
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-top">
@@ -40,8 +34,8 @@
                 <div class="col-8 menu">
                     <ul>
                         <li><a href= "pets.php">Trang chủ</a></li>
-                        <li><a href= "order.php">Order </a></li>
-                        <li><a href= "">Sản phẩm </a>
+                        <li><a href= "">Order </a>
+                        <li><a href= ""> Sản phẩm  </a>
                             <ul class="menu_sp">
                                 <li><a href="sp nb.php">Sản phẩm nổi bật</a></li>
                                 <li><a href="spm.php">Sản phẩm mới </a></li>
@@ -61,31 +55,26 @@
                 </div>
             </div>  
         </div>
-
         
     </header>
- 
-    <h2> <div align=middle class="h"> Giới thiệu về Pets Store</div> </h2>
-    <h3 class ="p"> 1. Các đặc điểm của Pets Store</h3>
-    <p align= justify class="ko">
-         - Pets Store được thành lập từ ngày 24/12/2015 <br>
-   -  Petstore.vn là nơi hội tụ của các thương hiệu nổi tiếng thế giới về các sản phẩm cho chó mèo <br>
-    - Mẫu mã và chủng loại hàng hóa đa dạng, chất lượng đảm bảo an toàn <br>
-
-- Dịch vụ chăm sóc khách hàng vượt trội: tư vấn sử dụng sản phẩm; tư vấn chọn mua hàng; giao hàng miễn phí; đổi - trả hàng trong 30 ngày<br>
-
-- Các chương trình khuyến mãi, ưu đãi dành cho khách hàng diễn ra thường xuyên </p>
-    <img class="ko" src= https://lolipet.net/wp-content/uploads/Hinh-anh-dong-vat-dang-yeu-cute-nhat-7.jpg; style: width="200" height="200" align = left >
-     <br><br><br><br><br><br><br><br><br><br><br><br>
-    
-    <h3 class ="p"> 2. Đội ngũ nhân viên của Pets Store</h3>
-    <p align= justify class="ko">
-    Với đội ngũ nhân viên uy tín, Petstore được biết đến là địa chỉ chuyên nghiệp hàng đầu dành cho thú cưng. Mỗi nhân viên của Petstore đều là một người nuôi thú cưng sành sỏi, là một chuyên gia trong lĩnh vực chăm sóc thú cưng. Với đội ngũ bán hàng trẻ và đầy nhiệt huyết, khách hàng khi đến Petstore chắc chắn sẽ vô cùng hài lòng về chất lượng mặt hàng cũng như chất lượng dịch vụ tại đây. <br> </p>
-    
-  
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<footer>
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmqiVo5NgV3FihqwVD8qmNFc6tx8BdYlYuA&usqp=CAU"   style: width="400" height="400" align = left />
+    <div class="f1">
+        <h1 class="hg"> Đặt hàng </h1> <br><br>
+        <form name ="f1" method = "get" action="hienthi.php">
+        Họ tên: <input type = "text" name="ten" value=""><br> <br>
+        Loại sản phẩm: <select name="lsp" class="a">
+                <option>quần áo  </option>
+                <option>đồ ăn hạt </option>
+                <option> phụ kiện  </option>
+                <option> chuồng/nhà</option>
+    </select>
+                <br> <br>
+        Tên sản phẩm: <input type = "text" name="ten" value=""><br> <br>
+        <input class= "c" type="submit" name="OK" value="OK" />
+        
+    </div>
+<br><BR><BR><BR><br><BR><BR><BR><br><BR><BR><BR>
+    <footer>
     <div class="container">
         <div class="row footer">
             <div class="col-3">
@@ -141,5 +130,4 @@
 
 </footer> 
 </body>
-
 </html>

@@ -16,7 +16,8 @@
                 </div>
                 <div class="col-8 menu">
                     <ul>
-                        <li><a href= "pets.php.php">Trang chủ</a></li>
+                        <li><a href= "pets.php">Trang chủ</a></li>
+                        <li><a href= "order.php">Order </a></li>
                         <li><a href= "">Sản phẩm </a>
                             <ul class="menu_sp">
                                 <li><a href="sp nb.php">Sản phẩm nổi bật</a></li>
@@ -52,7 +53,7 @@
                     <img src="https://salt.tikicdn.com/ts/product/da/3e/6b/d98d26204366d016674fa4389e567e1d.jpg"> 
                 </div>
                 <div  class="name">
-                    <p><b> <u> Balo thú cưng </u>  </b> </p> 
+                    <p><b> <u> <a href="order.php">Balo thú cưng </a> </u>  </b> </p> 
                 </div>
                 <div class="price">
                     <p> 200.000 VNĐ</p>
@@ -66,7 +67,7 @@
                     <img src="https://ae01.alicdn.com/kf/HTB1qM23XyzxK1Rjy1zkq6yHrVXaV/V-ng-C-Cho-Ch-M-o-C-T-nh-Nylon-Cho-Th-C-ng-Th.jpg_q50.jpg">
                 </div>
                 <div  class="name">
-                    <p><b><u> Vòng cổ cho chó mèo </u></b> </p>
+                    <p><b><u><a href="order.php"> Vòng cổ cho chó mèo </a> </u></b> </p>
                 </div>
                 <div class="price">
                     <p>25.000 VNĐ</p>
@@ -80,7 +81,7 @@
                     <img src="https://cf.shopee.vn/file/75599deedf6f6a156ecd2d387372e359" >
                 </div>
                 <div  class="name">
-                    <p><b><u> Thức ăn hạt cho mèo con </u> </b> </p>
+                    <p><b><u> <a href="order.php">Thức ăn hạt cho mèo con </a></u> </b> </p>
                 </div>
                 <div class="price">
                     <p>150.000 VNĐ</p>
@@ -94,7 +95,7 @@
                     <img src="https://bizweb.dktcdn.net/100/229/172/products/pate-joyneco.jpg?v=1617123590717">
                 </div>
                 <div  class="name">
-                    <p><b><u> Pate tươi cho mèo</u>  </b> </p>
+                    <p><b><u><a href="order.php"> Pate tươi cho mèo </a></u>  </b> </p>
                 </div>
                 <div class="price">
                     <p>62.000 VNĐ</p>
@@ -108,7 +109,7 @@
                     <img src="https://cf.shopee.vn/file/45ab945e1875dac8b08be162f3cebb90">
                 </div>
                 <div  class="name">
-                    <p><b><u> Áo khủng long xanh cho chó mèo </u> </b> </p>
+                    <p><b><u> <a href="order.php">Áo khủng long xanh cho chó mèo</a> </u> </b> </p>
                 </div>
                 <div class="price">
                     <p>150.000 VNĐ</p>

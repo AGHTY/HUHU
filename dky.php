@@ -8,6 +8,14 @@
             margin-left: 40%;
             font-size: 25px;
         }
+        .c{
+            font-size:25px;
+            color:#008000;
+            background-color: #C0C0C0;
+        }
+        .hg{
+            color:#FF0000;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +30,8 @@
                 </div>
                 <div class="col-8 menu">
                     <ul>
-                        <li><a href= "pets.php.php">Trang chủ</a></li>
+                        <li><a href= "pets.php">Trang chủ</a></li>
+                        <li><a href= "order.php">Order </a></li>
                         <li><a href= "">Sản phẩm </a>
                             <ul class="menu_sp">
                                 <li><a href="sp nb.php">Sản phẩm nổi bật</a></li>
@@ -43,10 +52,10 @@
         </div>
 </header>
 
-
+<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmqiVo5NgV3FihqwVD8qmNFc6tx8BdYlYuA&usqp=CAU"   style: width="400" height="400" align = left />
  <div class="f1">
-        <h1> Đăng ký </h1> <br><br>
-        <form name ="f1" method = "get" action="pets.php.php">
+        <h1 class="hg"> Đăng ký </h1> <br>
+        <form name ="f1" method = "get" action="pets.php">
         Name: <input type = "text" name="ten" value=""><br> <br>
         Pass: <input type="password" name="mk" value=""><br><br>
 
@@ -123,7 +132,10 @@
         
         Gioi tinh: Nam <input type = "radio" name = "gt"> Nu <input type = "radio" name = "gt"><br><br> 
         Email: <textarea name="textarea" cols"20" rows="2"></textarea><br><br> 
-        <input type="submit" name="OK" value="OK"/>
+        <input class="c" type="submit" name="OK" value="Đăng ký"/>
+        
+            <input class="c" type="reset" value="Nhập lại" />
+
 </div>
         </form>
 <br><br><br>

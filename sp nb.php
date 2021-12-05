@@ -16,7 +16,8 @@
                 </div>
                 <div class="col-8 menu">
                     <ul>
-                        <li><a href= "pets.php.php">Trang chủ</a></li>
+                        <li><a href= "pets.php">Trang chủ</a></li>
+                        <li><a href= "order.php">Order </a></li>
                         <li><a href= "">Sản phẩm </a>
                             <ul class="menu_sp">
                                 <li><a href="">Sản phẩm nổi bật</a></li>
@@ -50,7 +51,7 @@
                     <img src="https://www.cunsieupham.com/wp-content/uploads/2016/11/juniehouseaothuncotayhoathinh-1.jpg">
                 </div>
                 <div class="name">
-                    <p> <b> <u> Bộ Pikachu</u></b></p>
+                    <p> <b> <u> <a href="order.php">Bộ Pikachu </a></u></b></p>
                 </div>
                 <div class="price">
                     <p>125.000 VNĐ</p>
@@ -64,7 +65,7 @@
                     <img src="https://ae01.alicdn.com/kf/Hf7375ba34efc4201bc97ef4530fa7973J/M-o-Scratcher-C-y-Ch-i-D-y-Y-u-Th-ng-C-R-t.jpg_Q90.jpg_.webp"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Đồ chơi cho mèo </u> </b></p>
+                    <p> <b> <u><a href="order.php"> Đồ chơi cho mèo </a> </u> </b></p>
                 </div>
                 <div class="price">
                     <p>65.000 VNĐ</p>
@@ -78,7 +79,7 @@
                     <img src="https://img.susureview.com/Products/Balo-mang-thu-cung-an-toan-tien-loi.jpg"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Balo cho chó Puddle </u> </b></p>
+                    <p> <b> <u><a href="order.php"> Balo cho chó Puddle</a> </u> </b></p>
                 </div>
                 <div class="price">
                     <p>125.000 VNĐ</p>
@@ -92,7 +93,7 @@
                     <img src="https://cf.shopee.vn/file/7d2b8683a671572c1543a160993dc667"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Sữa tắm Bio Care </u></b></p>
+                    <p> <b> <u><a href="order.php"> Sữa tắm Bio Care</a> </u></b></p>
                 </div>
                 <div class="price">
                     <p>85.000 VNĐ</p>
@@ -106,7 +107,7 @@
                     <img src="https://cf.shopee.vn/file/90e79323ceba0743c46c99da5575b412"/>
                 </div>
                 <div class="name">
-                    <p> <b><u> Mother and baby cats </u> </b></p>
+                    <p> <b><u> <a href="order.php">Mother and baby cats</a> </u> </b></p>
                 </div>
                 <div class="price">
                     <p>752.000 VNĐ</p>
@@ -117,10 +118,10 @@
         <div class="col-2th">
             <div class="card">
                 <div class="image">
-                    <img src="https://lh3.googleusercontent.com/proxy/RXTRBbOZCzYb73Z5pH0lFiCf7J-lmAGpKzZywqgmfGJ1guv4NdX2IEHH8G47H8RjcE66JwW5hmB5w9X2PjhX0fDrbPw"/>
+                    <img src="3.jpg"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Persian kitten </u>  </b></p>
+                    <p> <b> <u> <a href="order.php">Persian kitten</a> </u>  </b></p>
                 </div>
                 <div class="price">
                     <p>410.000 VNĐ</p>
@@ -135,7 +136,7 @@
                     <img src="http://cdn-img-v2.webbnc.net/uploadv2/web/12/12107/product/2019/10/17/04/14/1571285687_thuc-an-meo-catsrang-400g-nhap-khau-han-quoc.jpg"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Catsrang cho mèo </u> </b></p>
+                    <p> <b> <u> <a href="order.php">Catsrang cho mèo </a></u> </b></p>
                 </div>
                 <div class="price">
                     <p>400.000 VNĐ</p>
@@ -149,7 +150,7 @@
                     <img src="https://vietgiftmarket.com/wp-content/uploads/2018/10/quan-ao-cho-cho-meo-ma-qacc1.jpg"/>
                 </div>
                 <div class="name">
-                    <p> <b> <u> Quần áo cho chó  </u>  </b></p>
+                    <p> <b> <u><a href="order.php"> Quần áo cho chó</a>  </u>  </b></p>
                 </div>
                 <div class="price">
                     <p>200.000 VNĐ</p>

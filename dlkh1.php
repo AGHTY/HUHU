@@ -5,7 +5,7 @@
 <style>
     .f2{
         font-size: 35px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .site-tile{
         margin-left: 20x;
@@ -21,6 +21,14 @@
         font-size: 25px;
         margin-left: 15px;
     } 
+    .c{
+            font-size:20px;
+            color:#008000;
+            background-color: #C0C0C0;
+        }
+    .k{
+        font-size: 25px;
+    }
     </style>
 </head>
 <body>
@@ -35,7 +43,8 @@
                 </div>
                 <div class="col-8 menu">
                     <ul>
-                        <li><a href= "PETS.php.php">Trang chủ</a></li>
+                        <li><a href= "PETS.php">Trang chủ</a></li>
+                        <li><a href= "order.php">Order </a></li>
                         <li><a href= "">Sản phẩm </a>
                             <ul class="menu_sp">
                                 <li><a href="sp nb.php">Sản phẩm nổi bật</a></li>
@@ -67,8 +76,8 @@ $link = new mysqli('localhost','root','','cn16log') or die ('Ket noi that bai');
 
 <div  align="center" >
         <form action="dlkh1.php" method="get">
-           <div class="f2"> Search: <input type="text" name="search"/> 
-            <input type ="submit" name="ok" value="search" /> </div>
+           <div class="f2"> Search: <input class="k" type="text" name="search"/> 
+            <input  class="c" type ="submit" name="ok" value="search" /> </div>
 </form>
 </div>
 <?php
